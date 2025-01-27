@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "Elise",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "ATLAS",
+      "color": {
+        "a": 1,
+        "rgb": 4170478
+      }
+    },
+    {
+      "query": "ITEM",
+      "color": {
+        "a": 1,
+        "rgb": 14872612
+      }
+    },
+    {
+      "query": "PLOT",
+      "color": {
+        "a": 1,
+        "rgb": 3669760
+      }
+    },
+    {
+      "query": "PC",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "NPC",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "COLLECTIVE",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "FAUNA",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.51574394463668,
+  "lineSizeMultiplier": 1.19359861591695,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 0,
+  "linkStrength": 0.634948096885813,
+  "linkDistance": 122,
+  "scale": 0.6155592547833392,
+  "close": true
+}

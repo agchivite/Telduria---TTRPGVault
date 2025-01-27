@@ -1,0 +1,10 @@
+{
+  "mrj-crosslink-between-notes:add-link-from-quick-switcher": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "styles": {
+    "00 - Atlas": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "01 - PCs": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "02 - NPCs": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "03 - Collectives": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "04 - Fauna": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "05 - Items": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "06 - Plots": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "## - Templates": {
+      "backgroundColor": "#000000",
+      "textColor": "#ffffff"
+    },
+    "01 - PCs/Deads": {
+      "textColor": "#ffffff"
+    },
+    "02 - NPCs/Deads": {
+      "textColor": "#ffffff"
+    },
+    "05 - Items/01 - Uncommon": {
+      "textColor": "#389ae5"
+    },
+    "05 - Items/02 - Rare": {
+      "textColor": "#ccd638"
+    },
+    "05 - Items/03 - Epic": {
+      "textColor": "#af2cc9"
+    },
+    "05 - Items/04 - Legendary": {
+      "textColor": "#d18b29"
+    },
+    "05 - Items/05 - Mythic": {
+      "textColor": "#2bc53d"
+    },
+    "05 - Items/06 - Divine": {
+      "textColor": "#c2c2c2"
+    },
+    "05 - Items/07 - Cosmic": {
+      "textColor": "#363abf"
+    },
+    "05 - Items/08 - Absolute": {
+      "textColor": "#e91c1c"
+    },
+    "06 - Plots/01 - Quest": {
+      "textColor": "#389ae5"
+    },
+    "06 - Plots/02 - Epic": {
+      "textColor": "#af2cc9"
+    },
+    "06 - Plots/02 - Expedition": {
+      "textColor": "#ccd638"
+    },
+    "06 - Plots/03 - Sage": {
+      "textColor": "#af2cc9"
+    },
+    "06 - Plots/04 - Odyssey": {
+      "textColor": "#d18b29"
+    },
+    "06 - Plots/07 - Apogee": {
+      "textColor": "#0a10b8"
+    },
+    "06 - Plots/06 - Ascension": {
+      "textColor": "#c2c2c2"
+    },
+    "06 - Plots/08 - Apogee": {
+      "textColor": "#e91c1c"
+    },
+    "06 - Plots/07 - Infinite": {
+      "textColor": "#363abf"
+    },
+    "06 - Plots/05 - Peripeteia": {
+      "textColor": "#2bc53d"
+    },
+    "00 - Atlas/06 - Continent": {
+      "textColor": "#af2cc9"
+    },
+    "00 - Atlas/05 - Region_Country": {
+      "textColor": "#ccd638"
+    },
+    "00 - Atlas/04 - Subregion": {
+      "textColor": "#ccd638"
+    },
+    "00 - Atlas/03 - Domain": {
+      "textColor": "#389ae5"
+    },
+    "00 - Atlas/02 - City": {
+      "textColor": "#389ae5"
+    },
+    "00 - Atlas/07 - Planet": {
+      "textColor": "#d18b29"
+    },
+    "00 - Atlas/## - Planes": {
+      "textColor": "#e91c1c"
+    },
+    "00 - Atlas/10 - Universe": {
+      "textColor": "#c2c2c2"
+    },
+    "00 - Atlas/09 -  Constellation": {
+      "textColor": "#2bc53d"
+    },
+    "00 - Atlas/08 - Solar system": {
+      "textColor": "#2bc53d"
+    },
+    "06 - Plots/04 - Legend": {
+      "textColor": "#d18b29"
+    },
+    "06 - Plots/05 - Mythical": {
+      "textColor": "#2bc53d"
+    },
+    "Sessions": {
+      "backgroundColor": "#000000",
+      "textColor": "#ffffff"
+    },
+    "04 - Fauna or Monsters": {
+      "textColor": "#ffffff",
+      "backgroundColor": "#171616"
+    },
+    "04 - Bestiary": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "01 - PCs/Hall of Fame": {
+      "textColor": "#ffffff"
+    },
+    "01 - PCs/Party": {
+      "textColor": "#ffffff"
+    }
+  },
+  "presets": {},
+  "presetOrder": []
+}

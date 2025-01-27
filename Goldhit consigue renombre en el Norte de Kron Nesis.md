@@ -1,0 +1,6 @@
+---
+tags:
+  - PLOT
+  - EVENT
+---
+[[Goldhit]]

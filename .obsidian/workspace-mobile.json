@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "baf820bfc85dd865",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb3f36d1b0e12829",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "786dc866cd16924a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4eb9c080bb8c6297",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "63abc5da3c9c6a27",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "84a963a46ef74ceb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "8be350a0e0e39a97",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "04bcc0cda30f4b68",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "fa2f1989e3d63ac5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5addd7ef156c8050",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "9e9663b0eae24492",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Telduria/Welcome.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "3cbfd448beb872d2",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Telduria/Welcome.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "296dbf92270481e8",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {},
+          "icon": "dices",
+          "title": "Dice Tray"
+        }
+      },
+      {
+        "id": "51c91c8bc9c3ca58",
+        "type": "leaf",
+        "state": {
+          "type": "juggl_nodes",
+          "state": {},
+          "icon": "ag-node-list",
+          "title": "Juggl nodes"
+        }
+      },
+      {
+        "id": "5725c7406ad01d05",
+        "type": "leaf",
+        "state": {
+          "type": "juggl_style",
+          "state": {},
+          "icon": "ag-style",
+          "title": "Juggl style"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "juggl:Juggl global graph": false
+    }
+  },
+  "active": "786dc866cd16924a",
+  "lastOpenFiles": [
+    "Categorias/Jugador.md",
+    "Ubicaciones/Zona.md",
+    "Jugadores/Vaeris.md",
+    "Jugadores/Thenard.md",
+    "Jugadores/Sun ji.md",
+    "Jugadores/Karnagor.md",
+    "Jugadores/Isildur.md",
+    "Jugadores/Hitler.md",
+    "Jugadores/Goldhit.md",
+    "NPCs/Samael.md",
+    "Categorias/NPC.md",
+    "NPCs/Kesabel.md",
+    "NPCs/Bultrut.md",
+    "NPCs/Arakiel.md",
+    "Personajes/Isildur.md",
+    "Personajes/Hitler.md",
+    "Categorias/Zona.md",
+    "Conceptos generales/Party principal.md",
+    "Zonas/Zona.md",
+    "Categorias",
+    "Zonas/Tarantis.md",
+    "Zonas/Untitled.canvas",
+    "Personajes/Vaeris.md",
+    "Personajes/Sun ji.md",
+    "Personajes/Thenard.md",
+    "Untitled.md",
+    "Personajes/Bultrut.md",
+    "Personajes/Arakiel.md",
+    "Conceptos generales",
+    "Zonas"
+  ]
+}

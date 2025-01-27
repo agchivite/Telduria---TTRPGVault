@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "Hitler",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "NPC",
+      "color": {
+        "a": 1,
+        "rgb": 15617071
+      }
+    },
+    {
+      "query": "ATLAS",
+      "color": {
+        "a": 1,
+        "rgb": 4170478
+      }
+    },
+    {
+      "query": "PC",
+      "color": {
+        "a": 1,
+        "rgb": 4189779
+      }
+    },
+    {
+      "query": "ITEM",
+      "color": {
+        "a": 1,
+        "rgb": 14872612
+      }
+    },
+    {
+      "query": "PLOT",
+      "color": {
+        "a": 1,
+        "rgb": 15597823
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 0.752768166089965,
+  "lineSizeMultiplier": 0.918079584775087,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 0,
+  "linkStrength": 0.520761245674741,
+  "linkDistance": 30,
+  "scale": 1.1477973879552101,
+  "close": true
+}

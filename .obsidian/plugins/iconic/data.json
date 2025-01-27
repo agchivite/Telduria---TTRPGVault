@@ -1,0 +1,287 @@
+{
+  "biggerIcons": "on",
+  "clickableIcons": "on",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "on",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "## - Templates": {
+      "icon": "lucide-book-template",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas": {
+      "icon": "lucide-map",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/## - Planes": {
+      "icon": "lucide-layers-3",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/00 - Point-of-interest": {
+      "icon": "lucide-map-pin",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/01 - Village": {
+      "icon": "lucide-house",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/02 - City": {
+      "icon": "lucide-university",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/03 - Domain": {
+      "icon": "lucide-maximize",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/04 - Subregion": {
+      "icon": "lucide-square",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/05 - Region_Country": {
+      "icon": "lucide-square-dot",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/06 - Continent": {
+      "icon": "lucide-square-square",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/07 - Planet": {
+      "icon": "lucide-globe",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/08 - Solar system": {
+      "icon": "lucide-radius",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/09 -  Constellation": {
+      "icon": "lucide-orbit",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "00 - Atlas/10 - Universe": {
+      "icon": "lucide-radar",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "01 - PCs": {
+      "icon": "lucide-user-circle",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "01 - PCs/Deads": {
+      "icon": "lucide-skull",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ],
+      "color": "red"
+    },
+    "01 - PCs/Hall of Fame": {
+      "icon": "ag-local",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ],
+      "color": "yellow"
+    },
+    "01 - PCs/Party": {
+      "icon": "lucide-party-popper",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ],
+      "color": "purple"
+    },
+    "02 - NPCs": {
+      "icon": "lucide-scan-face",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "02 - NPCs/Deads": {
+      "icon": "lucide-skull",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ],
+      "color": "red"
+    },
+    "03 - Collectives": {
+      "icon": "create-group",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "04 - Bestiary": {
+      "icon": "lucide-cat",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items": {
+      "icon": "lucide-shopping-bag",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/00 - Common": {
+      "icon": "lucide-circle-dashed",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/01 - Uncommon": {
+      "icon": "lucide-circle",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/02 - Rare": {
+      "icon": "lucide-triangle",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/03 - Epic": {
+      "icon": "lucide-square",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/04 - Legendary": {
+      "icon": "lucide-pentagon",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/05 - Mythic": {
+      "icon": "lucide-ratio",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/06 - Divine": {
+      "icon": "ag-local",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/07 - Cosmic": {
+      "icon": "lucide-stars",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "05 - Items/08 - Absolute": {
+      "icon": "lucide-atom",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots": {
+      "icon": "lucide-book-open",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/00 -  Event": {
+      "icon": "lucide-circle-dashed",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/01 - Quest": {
+      "icon": "lucide-circle",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/02 - Expedition": {
+      "icon": "lucide-triangle",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/03 - Sage": {
+      "icon": "lucide-square",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/04 - Legend": {
+      "icon": "lucide-pentagon",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/05 - Mythical": {
+      "icon": "lucide-ratio",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/06 - Ascension": {
+      "icon": "ag-local",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/07 - Infinite": {
+      "icon": "lucide-stars",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    },
+    "06 - Plots/08 - Apogee": {
+      "icon": "lucide-atom",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {
+    "graph:Open graph view": {
+      "color": "green"
+    },
+    "juggl:Juggl global graph": {
+      "color": "purple"
+    }
+  }
+}
