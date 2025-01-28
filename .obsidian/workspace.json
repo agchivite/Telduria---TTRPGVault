@@ -4,94 +4,131 @@
     "type": "split",
     "children": [
       {
-        "id": "a4546b00ddcac390",
+        "id": "f7d1b75327cbb5c0",
         "type": "tabs",
         "children": [
           {
-            "id": "1dc194d6434f4617",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "## - Templates/Atlas_Template.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Atlas_Template"
-            }
-          },
-          {
-            "id": "a7304209e8c8cee2",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "## - Templates/Item_Template.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Item_Template"
-            }
-          },
-          {
-            "id": "76ebcb3b3ded7c2d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "## - Templates/PC_NPC_Collective_Fauna_Template.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "PC_NPC_Collective_Fauna_Template"
-            }
-          },
-          {
-            "id": "6215b9760797a004",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "## - Templates/Plot_Template.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Plot_Template"
-            }
-          },
-          {
-            "id": "5e1c3d9f843b76c5",
+            "id": "7c04c278a56e35ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "# - Sessions/Session 13.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Session 13"
+              "type": "intiative-tracker-encounter-builder",
+              "state": [
+                [
+                  {
+                    "name": "Aboleth",
+                    "source": "5e SRD",
+                    "size": "Large",
+                    "type": "aberration",
+                    "subtype": "",
+                    "alignment": "lawful evil",
+                    "ac": 17,
+                    "hp": 135,
+                    "hit_dice": "18d10 + 36",
+                    "speed": "10 ft., swim 40 ft.",
+                    "stats": [
+                      21,
+                      9,
+                      15,
+                      18,
+                      15,
+                      18
+                    ],
+                    "saves": [
+                      {
+                        "constitution": 6
+                      },
+                      {
+                        "intelligence": 8
+                      },
+                      {
+                        "wisdom": 6
+                      }
+                    ],
+                    "skillsaves": [
+                      {
+                        "history": 12
+                      },
+                      {
+                        "perception": 10
+                      }
+                    ],
+                    "damage_vulnerabilities": "",
+                    "damage_resistances": "",
+                    "damage_immunities": "",
+                    "condition_immunities": "",
+                    "senses": "darkvision 120 ft., passive Perception 20",
+                    "languages": "Deep Speech, telepathy 120 ft.",
+                    "cr": "10",
+                    "bestiary": true,
+                    "traits": [
+                      {
+                        "name": "Amphibious",
+                        "desc": "The aboleth can breathe air and water.",
+                        "attack_bonus": 0
+                      },
+                      {
+                        "name": "Mucous Cloud",
+                        "desc": "While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 ft. of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.",
+                        "attack_bonus": 0
+                      },
+                      {
+                        "name": "Probing Telepathy",
+                        "desc": "If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature.",
+                        "attack_bonus": 0
+                      }
+                    ],
+                    "actions": [
+                      {
+                        "name": "Multiattack",
+                        "desc": "The aboleth makes three tentacle attacks.",
+                        "attack_bonus": 0
+                      },
+                      {
+                        "name": "Tentacle",
+                        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.",
+                        "attack_bonus": 9,
+                        "damage_dice": "2d6",
+                        "damage_bonus": 5
+                      },
+                      {
+                        "name": "Tail",
+                        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+                        "attack_bonus": 9,
+                        "damage_dice": "3d6",
+                        "damage_bonus": 5
+                      },
+                      {
+                        "name": "Enslave (3/day)",
+                        "desc": "The aboleth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.\nWhenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.",
+                        "attack_bonus": 0
+                      }
+                    ],
+                    "legendary_actions": [
+                      {
+                        "name": "Detect",
+                        "desc": "The aboleth makes a Wisdom (Perception) check.",
+                        "attack_bonus": 0
+                      },
+                      {
+                        "name": "Tail Swipe",
+                        "desc": "The aboleth makes one tail attack.",
+                        "attack_bonus": 0
+                      },
+                      {
+                        "name": "Psychic Drain (Costs 2 Actions)",
+                        "desc": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.",
+                        "attack_bonus": 0
+                      }
+                    ]
+                  },
+                  1
+                ]
+              ],
+              "icon": "intiative-tracker-encounter-builder",
+              "title": "Encounter Builder"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,20 +181,26 @@
             }
           },
           {
-            "id": "bf9beb4fd1eaa486",
+            "id": "934df434cf7637f5",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "type": "markdown",
+              "state": {
+                "file": "# - Tools/DM Side Screen.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DM Side Screen"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 466.5
   },
   "right": {
     "id": "34cffb9771e48e57",
@@ -166,40 +209,8 @@
       {
         "id": "27325f3badc5255b",
         "type": "tabs",
+        "dimension": 59.554730983302406,
         "children": [
-          {
-            "id": "425609819e11d548",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Elfos del Arte.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Elfos del Arte"
-            }
-          },
-          {
-            "id": "cfb9e5120fa55f2c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Elfos del Arte.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Elfos del Arte"
-            }
-          },
           {
             "id": "8de1167615ef578f",
             "type": "leaf",
@@ -211,7 +222,7 @@
             }
           },
           {
-            "id": "72d3f1d5f9a359ee",
+            "id": "d21b71bb0bacb32d",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -234,43 +245,44 @@
             }
           },
           {
-            "id": "9e4dbb09a704d856",
+            "id": "425609819e11d548",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "5272304151d6da58",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "04 - Bestiary/Lechuzos.md"
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               },
-              "icon": "lucide-list",
-              "title": "Outline of Lechuzos"
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
-            "id": "4a36e1f26bdd117c",
+            "id": "cfb9e5120fa55f2c",
             "type": "leaf",
             "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "type": "outgoing-link",
+              "state": {
+                "file": "# - Tools/DM Side Screen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DM Side Screen"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "b48324b13a10dafa",
         "type": "tabs",
+        "dimension": 40.44526901669759,
         "children": [
           {
             "id": "1400cc0905034976",
@@ -286,62 +298,63 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "juggl:Juggl global graph": false,
-      "switcher:Open quick switcher": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "github-sync:Sync with Remote": false
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "graph:Open graph view": false,
+      "github-sync:Sync with Remote": false,
+      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "templater-obsidian:Templater": true,
+      "canvas:Create new canvas": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "5e1c3d9f843b76c5",
+  "active": "934df434cf7637f5",
   "lastOpenFiles": [
+    "Abraham Lincoln.md",
+    "# - Tools/Chase Calculator.md",
+    "# - Tools/DM Side Screen.md",
+    "Excalidraw/Drawing 2025-01-28 12.58.03.excalidraw.md",
+    "2025-01-28.md",
+    "Excalidraw",
+    "# - Tools/Jump Calculator.md",
+    "# - Sessions/Session 13.md",
+    "# - Sessions/Session 13 (Explicacion Caos).md",
+    "# - Tools/Falling Calculator.md",
+    "# - Tools/Travel Calculator.md",
+    "# - Tools/Sneaky Calculator.md",
+    "# - Tools/Currency Trade.md",
+    "## - Templates/Plot_Template.md",
+    "## - Templates/PC_NPC_Collective_Fauna_Template.md",
+    "## - Templates/Item_Template.md",
+    "## - Templates/Atlas_Template.md",
+    "00 - Atlas/02 - City/Puertodragon.md",
+    "04 - Bestiary/Lechuzos.md",
     "README.md",
     "Nuevo Documento de texto.txt",
-    "# - Sessions/Session 13 (Explicacion Caos).md",
-    "# - Sessions/Session 13.md",
-    "04 - Bestiary/Lechuzos.md",
     "## - Templates/Statblock_Template.md",
     "## - Templates/Encounter_Termplate.md",
-    "## - Templates/Atlas_Template.md",
-    "## - Templates/PC_NPC_Collective_Fauna_Template.md",
     "Llave de los Elfos del Sol.md",
     "Artefactos de La Gran Escarpa/Las 12 Llaves.md",
     "01 - PCs/Party/Isildur.md",
     "01 - PCs/Hall of Fame",
     "01 - PCs/Party",
-    "# - Tools/Falling Calculator.md",
     "# - Tools",
     "00 - Atlas/05 - Region_Country/Kron Nesis.md",
     "00 - Atlas/05 - Region_Country/Kelnore.md",
-    "## - Templates/aa.md",
-    "## - Templates/Plot_Template.md",
-    "Elfos del Arte.md",
-    "04 - Fauna or Monsters/JeGod.md",
-    "Verdadero Corazón de Sylvanos.md",
-    "Falso Corazón de Sylvanos.md",
     "# - Sessions",
-    "06 - Plots/01 - Quest/Limpieza en La Torre de Lolth.md",
-    "01 - PCs/Deads/Vaeris.md",
-    "01 - PCs/Party/Hitler.md",
-    "01 - PCs/Party/Sun ji.md",
-    "02 - NPCs/Deads/Loty.md",
-    "02 - NPCs/Deads/Firia.md",
     "Images",
     "Images",
     "02 - NPCs/Humans",
     "00 - Atlas/Untitled",
-    "00 - Atlas/## - Planes",
     "Untitled.canvas",
     "sidekicks/Untitled.canvas"
   ]

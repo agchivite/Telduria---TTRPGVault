@@ -9,6 +9,26 @@
       "path": "# - Sessions/Session 13 (Explicacion Caos).md"
     },
     {
+      "basename": "Plot_Template",
+      "path": "## - Templates/Plot_Template.md"
+    },
+    {
+      "basename": "PC_NPC_Collective_Fauna_Template",
+      "path": "## - Templates/PC_NPC_Collective_Fauna_Template.md"
+    },
+    {
+      "basename": "Item_Template",
+      "path": "## - Templates/Item_Template.md"
+    },
+    {
+      "basename": "Atlas_Template",
+      "path": "## - Templates/Atlas_Template.md"
+    },
+    {
+      "basename": "Abraham Lincoln",
+      "path": "Abraham Lincoln.md"
+    },
+    {
       "basename": "Lechuzos",
       "path": "04 - Bestiary/Lechuzos.md"
     },
@@ -19,14 +39,6 @@
     {
       "basename": "Encounter_Termplate",
       "path": "## - Templates/Encounter_Termplate.md"
-    },
-    {
-      "basename": "Atlas_Template",
-      "path": "## - Templates/Atlas_Template.md"
-    },
-    {
-      "basename": "PC_NPC_Collective_Fauna_Template",
-      "path": "## - Templates/PC_NPC_Collective_Fauna_Template.md"
     },
     {
       "basename": "Llave de los Elfos del Sol",
@@ -47,10 +59,6 @@
     {
       "basename": "Kelnore",
       "path": "00 - Atlas/05 - Region_Country/Kelnore.md"
-    },
-    {
-      "basename": "Plot_Template",
-      "path": "## - Templates/Plot_Template.md"
     },
     {
       "basename": "Elfos del Arte",
@@ -187,18 +195,6 @@
     {
       "basename": "Genio del trueque",
       "path": "02 - NPCs/Genio del trueque.md"
-    },
-    {
-      "basename": "Item_Template",
-      "path": "## - Templates/Item_Template.md"
-    },
-    {
-      "basename": "Mayor Gremio de Aventureros",
-      "path": "00 - Atlas/00 - Point-of-interest/Mayor Gremio de Aventureros.md"
-    },
-    {
-      "basename": "Lanza de espíritu",
-      "path": "05 - Items/02 - Rare/Lanza de espíritu.md"
     }
   ],
   "omittedPaths": [],

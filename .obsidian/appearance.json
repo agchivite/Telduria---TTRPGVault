@@ -1,8 +1,7 @@
 {
   "cssTheme": "ITS Theme",
   "accentColor": "",
-  "enabledCssSnippets": [
-    "Theme - D&D WOTC"
-  ],
-  "theme": "moonstone"
+  "enabledCssSnippets": [],
+  "theme": "obsidian",
+  "baseFontSize": 14
 }

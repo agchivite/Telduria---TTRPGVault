@@ -15,8 +15,24 @@
   "uncolorQuick": false,
   "rememberDeletedItems": false,
   "appIcons": {},
-  "tabIcons": {},
+  "tabIcons": {
+    "DICE_ROLLER_VIEW": {
+      "color": "orange"
+    },
+    "fantasy-statblocks-creature-pane": {
+      "icon": "lucide-paw-print",
+      "color": "orange"
+    },
+    "initiative-tracker-view": {
+      "icon": "initiative-tracker",
+      "color": "orange"
+    }
+  },
   "fileIcons": {
+    "# - Tools/DM Side Screen.md": {
+      "icon": "lucide-dna",
+      "color": "orange"
+    },
     "## - Templates": {
       "icon": "lucide-book-template",
       "unsynced": [
@@ -148,7 +164,7 @@
       ]
     },
     "04 - Bestiary": {
-      "icon": "lucide-cat",
+      "icon": "lucide-paw-print",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
@@ -278,9 +294,25 @@
   "propertyIcons": {},
   "ribbonIcons": {
     "graph:Open graph view": {
-      "color": "green"
+      "color": "gray"
+    },
+    "initiative-tracker:Initiative Tracker Encounter Builder": {
+      "icon": "initiative-tracker",
+      "color": "orange"
     },
     "juggl:Juggl global graph": {
+      "color": "purple"
+    },
+    "obsidian-5e-statblocks:Open Creature pane": {
+      "icon": "lucide-paw-print",
+      "color": "orange"
+    },
+    "obsidian-excalidraw-plugin:Create new drawing": {
+      "icon": "lucide-paintbrush",
+      "color": "purple"
+    },
+    "obsidian-leaflet-plugin:Open Leaflet Map": {
+      "icon": "obsidian-leaflet-plugin-icon-map",
       "color": "purple"
     }
   }
