@@ -29,15 +29,15 @@
     }
   },
   "fileIcons": {
-    "# - Tools/DM Side Screen.md": {
-      "icon": "lucide-dna",
-      "color": "orange"
-    },
-    "## - Templates": {
+    "# - Tools/## - Templates": {
       "icon": "lucide-book-template",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
+    },
+    "# - Tools/DM Side Screen.md": {
+      "icon": "lucide-dna",
+      "color": "orange"
     },
     "00 - Atlas": {
       "icon": "lucide-map",
