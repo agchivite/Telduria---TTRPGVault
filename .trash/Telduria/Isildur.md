@@ -1,1 +1,0 @@
-Es hermano de [[Vaeris]]
