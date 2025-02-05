@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "Thénard",
+  "collapse-filter": false,
+  "search": "-CLI",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -57,16 +57,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 0.752768166089965,
-  "lineSizeMultiplier": 0.956228373702422,
+  "lineSizeMultiplier": 0.878385416666667,
   "collapse-forces": false,
   "centerStrength": 0,
-  "repelStrength": 7.16262975778547,
-  "linkStrength": 0.520761245674741,
-  "linkDistance": 163,
-  "scale": 0.5340383844889043,
-  "close": false
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.09895430218637197,
+  "close": true
 }

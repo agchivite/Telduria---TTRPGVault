@@ -12,123 +12,37 @@
             "type": "leaf",
             "state": {
               "type": "intiative-tracker-encounter-builder",
-              "state": [
-                [
-                  {
-                    "name": "Aboleth",
-                    "source": "5e SRD",
-                    "size": "Large",
-                    "type": "aberration",
-                    "subtype": "",
-                    "alignment": "lawful evil",
-                    "ac": 17,
-                    "hp": 135,
-                    "hit_dice": "18d10 + 36",
-                    "speed": "10 ft., swim 40 ft.",
-                    "stats": [
-                      21,
-                      9,
-                      15,
-                      18,
-                      15,
-                      18
-                    ],
-                    "saves": [
-                      {
-                        "constitution": 6
-                      },
-                      {
-                        "intelligence": 8
-                      },
-                      {
-                        "wisdom": 6
-                      }
-                    ],
-                    "skillsaves": [
-                      {
-                        "history": 12
-                      },
-                      {
-                        "perception": 10
-                      }
-                    ],
-                    "damage_vulnerabilities": "",
-                    "damage_resistances": "",
-                    "damage_immunities": "",
-                    "condition_immunities": "",
-                    "senses": "darkvision 120 ft., passive Perception 20",
-                    "languages": "Deep Speech, telepathy 120 ft.",
-                    "cr": "10",
-                    "bestiary": true,
-                    "traits": [
-                      {
-                        "name": "Amphibious",
-                        "desc": "The aboleth can breathe air and water.",
-                        "attack_bonus": 0
-                      },
-                      {
-                        "name": "Mucous Cloud",
-                        "desc": "While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 ft. of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.",
-                        "attack_bonus": 0
-                      },
-                      {
-                        "name": "Probing Telepathy",
-                        "desc": "If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature.",
-                        "attack_bonus": 0
-                      }
-                    ],
-                    "actions": [
-                      {
-                        "name": "Multiattack",
-                        "desc": "The aboleth makes three tentacle attacks.",
-                        "attack_bonus": 0
-                      },
-                      {
-                        "name": "Tentacle",
-                        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.",
-                        "attack_bonus": 9,
-                        "damage_dice": "2d6",
-                        "damage_bonus": 5
-                      },
-                      {
-                        "name": "Tail",
-                        "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
-                        "attack_bonus": 9,
-                        "damage_dice": "3d6",
-                        "damage_bonus": 5
-                      },
-                      {
-                        "name": "Enslave (3/day)",
-                        "desc": "The aboleth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.\nWhenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.",
-                        "attack_bonus": 0
-                      }
-                    ],
-                    "legendary_actions": [
-                      {
-                        "name": "Detect",
-                        "desc": "The aboleth makes a Wisdom (Perception) check.",
-                        "attack_bonus": 0
-                      },
-                      {
-                        "name": "Tail Swipe",
-                        "desc": "The aboleth makes one tail attack.",
-                        "attack_bonus": 0
-                      },
-                      {
-                        "name": "Psychic Drain (Costs 2 Actions)",
-                        "desc": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.",
-                        "attack_bonus": 0
-                      }
-                    ]
-                  },
-                  1
-                ]
-              ],
+              "state": [],
               "icon": "intiative-tracker-encounter-builder",
               "title": "Encounter Builder"
             }
+          },
+          {
+            "id": "3e039a51d1542b11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 - TODO/Monte Burla.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Monte Burla"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +61,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -159,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Wererat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,15 +96,24 @@
             }
           },
           {
-            "id": "934df434cf7637f5",
+            "id": "3070e189c0716e51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "# - Tools/DM Side Screen.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "DM Side Screen"
@@ -199,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 466.5
+    "width": 272.5
   },
   "right": {
     "id": "34cffb9771e48e57",
@@ -208,7 +132,6 @@
       {
         "id": "27325f3badc5255b",
         "type": "tabs",
-        "dimension": 59.554730983302406,
         "children": [
           {
             "id": "8de1167615ef578f",
@@ -267,29 +190,43 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "# - Tools/DM Side Screen.md",
+                "file": "00 - Sessions/Sesion13.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DM Side Screen"
+              "title": "Outgoing links from Sesion13.excalidraw"
+            }
+          },
+          {
+            "id": "35ebae23db00826c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00 - Sessions/Sesion13.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sesion13.excalidraw"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "b48324b13a10dafa",
+        "id": "517ac52702a0787f",
         "type": "tabs",
-        "dimension": 40.44526901669759,
         "children": [
           {
-            "id": "1400cc0905034976",
+            "id": "50984309a477c5c1",
             "type": "leaf",
             "state": {
-              "type": "fantasy-statblocks-creature-pane",
+              "type": "initiative-tracker-creature-view",
               "state": {},
-              "icon": "skull",
+              "icon": "initiative-tracker-creature-view",
               "title": "Combatant"
             }
           }
@@ -297,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -318,42 +255,43 @@
   },
   "active": "6116c077e759a757",
   "lastOpenFiles": [
-    "07 - TODO/Zamber.md",
-    "07 - TODO/Vortexia.md",
-    "07 - TODO/Vilovia.md",
-    "07 - TODO/Verdadero Corazón de Sylvanos.md",
-    "07 - TODO/Valoria (Ciudad de Luz).md",
-    "07 - TODO/Unión Tamáshica.md",
-    "07 - TODO/Tri Reino de La Escarpa.md",
-    "07 - TODO/Theron.md",
-    "07 - TODO/Tesoros de Los Círculos de Dante.md",
-    "07 - TODO/Súbditos metamórficos de Razmoria.md",
-    "07 - TODO/Skria (Sierras Albinas).md",
-    "07 - TODO/Sheika.md",
-    "07 - TODO/Sellado de Gran Escarpa.md",
-    "07 - TODO/Rosaria (Precepto Vida).md",
-    "07 - TODO/Reiza.md",
-    "07 - TODO/Recolecta de Los Saberes.md",
-    "07 - TODO/Reberia (Monte Burla).md",
-    "07 - TODO/README.md",
-    "07 - TODO/Razmoria.md",
-    "07 - TODO/Puerto Turia.md",
-    "07 - TODO/Profecía de los Elfos Reales.md",
-    "07 - TODO/Primer Encuentro con MonteCarlo.md",
-    "07 - TODO/Primer encuentro con Arakiel.md",
-    "07 - TODO/Pleura.md",
-    "07 - TODO/Plano Material.md",
-    "07 - TODO/Plano Exterior.md",
-    "07 - TODO",
-    "Excalidraw",
-    "Nuevo Documento de texto.txt",
-    "01 - PCs/Hall of Fame",
-    "01 - PCs/Party",
-    "# - Tools",
-    "# - Sessions",
-    "Images",
-    "Images",
-    "02 - NPCs/Humans",
+    "Excalidraw/imgs random/Pasted Image 20250204130159_073.webp",
+    "00 - Sessions/Sesion13.excalidraw.md",
+    "04 - Bestiary/Falso Corazón de Sylvanos Corrupto.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Árbol anciano corrupto.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Dragon Artifical de Bosque.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Guardian DUMB.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Falso Corazón de Sylvanos Corrupto.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Retoños corrompidos.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Serpiente Esmeralda.md",
+    "04 - Bestiary/Ents de Caos.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Falso Golem de Sylvanos.md",
+    "04 - Bestiary/Falso Golem de Sylvanos.md",
+    "04 - Bestiary/Árbol anciano corrupto.md",
+    "04 - Bestiary/Simbiosis Serpiente Arbórea No-muerta.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Simbiosis serpiente arbórea no-muerta.md",
+    "# - Tools/DM Side Screen.md",
+    "04 - Bestiary/Serpiente Esmeralda.md",
+    "04 - Bestiary/Enjambre de Retoños Corrompidos.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Ents Corruptos.md",
+    "00 - Sessions/Sesion 13/Encounters/S13 - Árbol adulto corrupto.md",
+    "04 - Bestiary/Árbol adulto corrupto.md",
+    "Excalidraw/Drawing 2025-02-04 11.46.46.excalidraw.md",
+    "07 - TODO/Reberia.md",
+    "04 - Bestiary/Lechuzos.md",
+    "99 - Mechanics CLI/CLI/bestiary/dragon/adult-copper-dragon-xmm.md",
+    "99 - Mechanics CLI/CLI/bestiary/bestiary.md",
+    "3-Mechanics/CLI/bestiary/aberration",
+    "3-Mechanics/CLI/bestiary",
+    "3-Mechanics/CLI",
+    "3-Mechanics",
+    "99 - Mechanics CLI/CLI/vehicles/token",
+    "99 - Mechanics CLI/CLI/vehicles/img",
+    "99 - Mechanics CLI/CLI/vehicles",
+    "99 - Mechanics CLI/CLI/traps-hazards/img",
+    "99 - Mechanics CLI/CLI/traps-hazards",
+    "99 - Mechanics CLI/CLI/tables",
+    "99 - Mechanics CLI/CLI/bestiary/aberration/img/aberrant-spirit-beholderkin-xphb.jpg",
     "Untitled.canvas",
     "sidekicks/Untitled.canvas"
   ]

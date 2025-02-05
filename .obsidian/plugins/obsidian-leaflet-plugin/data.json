@@ -3,7 +3,7 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1737974718159,
+      "lastAccessed": 1738145432481,
       "markers": [
         {
           "id": "ID_d86b686b288a",
@@ -26,8 +26,8 @@
       "overlays": [],
       "shapes": [],
       "files": [
-        "00 - Atlas/05 - Region_Country/Kelnore.md",
-        "00 - Atlas/05 - Region_Country/Kron Nesis.md"
+        "# - Tools/## - Templates/Example leaflet.md",
+        "00 - Atlas/05 - Region_Country/Kelnore.md"
       ]
     }
   ],

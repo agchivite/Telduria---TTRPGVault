@@ -145,6 +145,14 @@
     },
     "01 - PCs/Party": {
       "textColor": "#ffffff"
+    },
+    "02- Characters": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
+    },
+    "01 - Atlas": {
+      "backgroundColor": "#171616",
+      "textColor": "#ffffff"
     }
   },
   "presets": {},

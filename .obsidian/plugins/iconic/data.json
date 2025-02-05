@@ -23,6 +23,9 @@
       "icon": "lucide-paw-print",
       "color": "orange"
     },
+    "initiative-tracker-creature-view": {
+      "color": "orange"
+    },
     "initiative-tracker-view": {
       "icon": "initiative-tracker",
       "color": "orange"
@@ -39,123 +42,123 @@
       "icon": "lucide-dna",
       "color": "orange"
     },
-    "00 - Atlas": {
+    "01 - Atlas": {
       "icon": "lucide-map",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/## - Planes": {
+    "01 - Atlas/## - Planes": {
       "icon": "lucide-layers-3",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/00 - Point-of-interest": {
+    "01 - Atlas/00 - Point-of-interest": {
       "icon": "lucide-map-pin",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/01 - Village": {
+    "01 - Atlas/01 - Village": {
       "icon": "lucide-house",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/02 - City": {
+    "01 - Atlas/02 - City": {
       "icon": "lucide-university",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/03 - Domain": {
+    "01 - Atlas/03 - Domain": {
       "icon": "lucide-maximize",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/04 - Subregion": {
+    "01 - Atlas/04 - Subregion": {
       "icon": "lucide-square",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/05 - Region_Country": {
+    "01 - Atlas/05 - Region_Country": {
       "icon": "lucide-square-dot",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/06 - Continent": {
+    "01 - Atlas/06 - Continent": {
       "icon": "lucide-square-square",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/07 - Planet": {
+    "01 - Atlas/07 - Planet": {
       "icon": "lucide-globe",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/08 - Solar system": {
+    "01 - Atlas/08 - Solar system": {
       "icon": "lucide-radius",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/09 -  Constellation": {
+    "01 - Atlas/09 -  Constellation": {
       "icon": "lucide-orbit",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "00 - Atlas/10 - Universe": {
+    "01 - Atlas/10 - Universe": {
       "icon": "lucide-radar",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "01 - PCs": {
+    "02- Characters": {
       "icon": "lucide-user-circle",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "01 - PCs/Deads": {
+    "02- Characters/Deads": {
       "icon": "lucide-skull",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ],
       "color": "red"
     },
-    "01 - PCs/Hall of Fame": {
-      "icon": "ag-local",
+    "02- Characters/Hall of Fame": {
+      "icon": "lucide-stars",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ],
       "color": "yellow"
     },
-    "01 - PCs/Party": {
-      "icon": "lucide-party-popper",
-      "unsynced": [
-        "8a6a3b72c61dfb20"
-      ],
-      "color": "purple"
-    },
-    "02 - NPCs": {
+    "02- Characters/NPCs": {
       "icon": "lucide-scan-face",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ]
     },
-    "02 - NPCs/Deads": {
+    "02- Characters/NPCs/Deads": {
       "icon": "lucide-skull",
       "unsynced": [
         "8a6a3b72c61dfb20"
       ],
       "color": "red"
+    },
+    "02- Characters/Party": {
+      "icon": "lucide-party-popper",
+      "unsynced": [
+        "8a6a3b72c61dfb20"
+      ],
+      "color": "purple"
     },
     "03 - Collectives": {
       "icon": "create-group",

@@ -741,6 +741,41 @@
       "resultText": "1d8\n[5]",
       "timestamp": 1737975707628,
       "id": "BLtYZHtwtcho"
+    },
+    {
+      "result": "67",
+      "original": "6d20",
+      "resultText": "6d20\n[14, 13, 14, 2, 4, 20]",
+      "timestamp": 1738066964425,
+      "id": "7FhRRBe4kBK6"
+    },
+    {
+      "result": "5",
+      "original": "1d20",
+      "resultText": "1d20\n[5]",
+      "timestamp": 1738066971078,
+      "id": "PZQfomqxjmBA"
+    },
+    {
+      "result": "44",
+      "original": "1d%",
+      "resultText": "1d%\n[44]",
+      "timestamp": 1738066974156,
+      "id": "J-EbmZzv_U_N"
+    },
+    {
+      "result": "16",
+      "original": "1d20",
+      "resultText": "1d20\n[16]",
+      "timestamp": 1738066976285,
+      "id": "irSu_MyNJ9U6"
+    },
+    {
+      "result": "4",
+      "original": "1d4",
+      "resultText": "1d4\n[4]",
+      "timestamp": 1738160887922,
+      "id": "WbM86TlFeqOF"
     }
   ]
 }

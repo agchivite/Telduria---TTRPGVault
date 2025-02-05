@@ -38,5 +38,8 @@
   "ITS@@disable-source-styling": false,
   "ITS@@lig": true,
   "ITS@@justified": true,
-  "ITS@@p-spacing": 1
+  "ITS@@p-spacing": 1,
+  "ITS@@dataview-table-auto": true,
+  "ITS@@dataview-regular-table": true,
+  "ITS@@graph-lines@@dark": "#292F37"
 }

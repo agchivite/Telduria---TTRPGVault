@@ -1,5 +1,673 @@
 {
-  "monsters": [],
+  "monsters": [
+    [
+      "Árbol anciano corrupto",
+      {
+        "name": "Árbol anciano corrupto",
+        "size": "Huge",
+        "type": "plant",
+        "alignment": "Chaotic Evil",
+        "ac": 17,
+        "ac_class": "natural armor",
+        "hp": 184,
+        "hit_dice": "16d12 + 80",
+        "stats": [
+          23,
+          8,
+          21,
+          12,
+          16,
+          18
+        ],
+        "speed": "10 ft.",
+        "saves": [
+          {
+            "Constitution": 9
+          },
+          {
+            "Wisdom": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "Perception": 7
+          }
+        ],
+        "damage_immunities": "poison",
+        "damage_resistances": "bludgeoning, piercing",
+        "damage_vulnerabilities": "fire",
+        "condition_immunities": "blinded, deafened, exhaustion",
+        "senses": "blindsight 120 ft., passive Perception 17",
+        "languages": "Common, Druidic, Sylvan",
+        "cr": "12",
+        "traits": [
+          {
+            "name": "Aura de Corrupción",
+            "desc": "Al inicio de cada turno del Árbol Anciano Corrupto, cada criatura a 30 pies de él debe superar una tirada de salvación de Constitución CD 16 o sufrir 7 (2d6) de daño necrótico y quedar envenenada hasta el final de su próximo turno."
+          },
+          {
+            "name": "Raíces Profundas",
+            "desc": "El Árbol Anciano Corrupto tiene ventaja en las tiradas de salvación contra efectos que lo empujarían, derribarían o lo moverían contra su voluntad."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ataque Múltiple",
+            "desc": "El Árbol Anciano Corrupto realiza tres ataques de Golpe de Rama."
+          },
+          {
+            "name": "Golpe de Rama",
+            "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) necrotic damage."
+          },
+          {
+            "name": "Esporas Venenosas (Recarga 5-6)",
+            "desc": "El Árbol Anciano Corrupto libera una nube de esporas venenosas en un radio de 30 pies. Cada criatura en el área debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, la criatura sufre 31 (7d8) de daño por veneno y queda envenenada durante 1 minuto. En caso de éxito, sufre la mitad del daño y no queda envenenada. Una criatura envenenada puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma en caso de éxito."
+          },
+          {
+            "name": "Invocar Enredaderas (1/día)",
+            "desc": "El Árbol Anciano Corrupto anima mágicamente las enredaderas y raíces en un radio de 60 pies. El área se convierte en terreno difícil durante 1 minuto. Además, cada criatura de elección del árbol en el área cuando las enredaderas aparecen debe superar una tirada de salvación de Fuerza CD 16 o quedar restringida. Una criatura puede usar su acción para hacer una prueba de Fuerza CD 16, liberándose a sí misma o a otra criatura a su alcance en caso de éxito."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Ataque de Rama",
+            "desc": "El Árbol Anciano Corrupto realiza un ataque de Golpe de Rama."
+          },
+          {
+            "name": "Regeneración Corrupta (Cuesta 2 Acciones)",
+            "desc": "El Árbol Anciano Corrupto recupera 20 puntos de golpe."
+          },
+          {
+            "name": "Onda de Corrupción (Cuesta 3 Acciones)",
+            "desc": "El Árbol Anciano Corrupto libera una onda de energía corrupta. Cada criatura en un radio de 30 pies debe realizar una tirada de salvación de Sabiduría CD 16. En caso de fallo, la criatura sufre 18 (4d8) de daño psíquico y queda asustada durante 1 minuto. Una criatura asustada puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma en caso de éxito."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Árbol adulto corrupto",
+      {
+        "name": "Árbol adulto corrupto",
+        "size": "Large",
+        "type": "plant",
+        "alignment": "Chaotic Evil",
+        "ac": 16,
+        "ac_class": "natural armor",
+        "hp": 126,
+        "hit_dice": "12d10 + 60",
+        "stats": [
+          20,
+          8,
+          20,
+          10,
+          14,
+          16
+        ],
+        "speed": "20 ft.",
+        "saves": [
+          {
+            "Constitution": 8
+          },
+          {
+            "Wisdom": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Perception": 5
+          }
+        ],
+        "damage_immunities": "poison",
+        "damage_resistances": "bludgeoning, piercing",
+        "damage_vulnerabilities": "fire",
+        "condition_immunities": "blinded, deafened",
+        "senses": "blindsight 60 ft., passive Perception 15",
+        "languages": "Common, Druidic, Sylvan",
+        "cr": "8",
+        "traits": [
+          {
+            "name": "Aura de Corrupción Menor",
+            "desc": "Al inicio de cada turno del Árbol Adulto Corrupto, cada criatura a 20 pies de él debe superar una tirada de salvación de Constitución CD 15 o sufrir 5 (1d10) de daño necrótico."
+          },
+          {
+            "name": "Raíces Firmes",
+            "desc": "El Árbol Adulto Corrupto tiene ventaja en las tiradas de salvación contra efectos que lo empujarían o lo derribarían."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ataque Múltiple",
+            "desc": "El Árbol Adulto Corrupto realiza dos ataques de Golpe de Rama."
+          },
+          {
+            "name": "Golpe de Rama",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage plus 5 (1d10) necrotic damage."
+          },
+          {
+            "name": "Esporas Nocivas (Recarga 5-6)",
+            "desc": "El Árbol Adulto Corrupto libera una nube de esporas en un radio de 20 pies. Cada criatura en el área debe realizar una tirada de salvación de Constitución CD 16. En caso de fallo, la criatura sufre 22 (5d8) de daño por veneno y queda envenenada durante 1 minuto. En caso de éxito, sufre la mitad del daño y no queda envenenada. Una criatura envenenada puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma en caso de éxito."
+          },
+          {
+            "name": "Enredaderas Corruptas (Recarga 4-6)",
+            "desc": "El Árbol Adulto Corrupto anima mágicamente las enredaderas en un radio de 30 pies. El área se convierte en terreno difícil durante 1 minuto. Además, hasta tres criaturas de elección del árbol en el área deben superar una tirada de salvación de Fuerza CD 15 o quedar restringidas. Una criatura restringida puede usar su acción para hacer una prueba de Fuerza CD 15, liberándose en caso de éxito."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Contraataque de Ramas",
+            "desc": "Cuando el Árbol Adulto Corrupto es golpeado por un ataque cuerpo a cuerpo, puede usar su reacción para hacer un ataque de Golpe de Rama contra el atacante."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Enjambre de Retoños Corrompidos",
+      {
+        "name": "Enjambre de Retoños Corrompidos",
+        "size": "Large",
+        "type": "swarm of Medium plants",
+        "alignment": "Chaotic Evil",
+        "ac": 14,
+        "ac_class": "natural armor",
+        "hp": 97,
+        "hit_dice": "13d10 + 26",
+        "stats": [
+          14,
+          14,
+          14,
+          3,
+          10,
+          6
+        ],
+        "speed": "30 ft.",
+        "damage_resistances": "bludgeoning, piercing, slashing",
+        "damage_vulnerabilities": "fire",
+        "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+        "senses": "blindsight 10 ft., passive Perception 10",
+        "languages": "understands Druid but can't speak",
+        "cr": "5",
+        "traits": [
+          {
+            "name": "Enjambre",
+            "desc": "El enjambre puede ocupar el espacio de otra criatura y viceversa, y el enjambre puede moverse a través de cualquier apertura lo suficientemente grande para un retoño Mediano. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales."
+          },
+          {
+            "name": "Aura de Corrupción",
+            "desc": "Al inicio del turno del enjambre, cada criatura en un radio de 10 pies debe superar una tirada de salvación de Constitución CD 13 o sufrir 3 (1d6) de daño de caos."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Zarcillos",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if el enjambre tiene la mitad de sus puntos de golpe o menos. El objetivo debe superar una tirada de salvación de Constitución CD 13 o quedar corrupto hasta el final de su próximo turno."
+          },
+          {
+            "name": "Esporas Corruptas (Recarga 5-6)",
+            "desc": "El enjambre libera una nube de esporas en un radio de 15 pies. Cada criatura en el área debe realizar una tirada de salvación de Constitución CD 13. En caso de fallo, la criatura sufre 10 (3d6) de daño por caos y queda cegada durante 1 minuto. En caso de éxito, sufre la mitad del daño y no queda cegada. Una criatura cegada puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma en caso de éxito."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Dispersión Rápida",
+            "desc": "Cuando el enjambre recibe daño de un ataque de área, puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Serpiente Esmeralda Alfa",
+      {
+        "name": "Serpiente Esmeralda Alfa",
+        "size": "Huge",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 17,
+        "ac_class": "natural armor",
+        "hp": 162,
+        "hit_dice": "13d12 + 78",
+        "stats": [
+          19,
+          17,
+          19,
+          4,
+          14,
+          12
+        ],
+        "speed": "50 ft., climb 50 ft., swim 50 ft.",
+        "saves": [
+          {
+            "Dexterity": 8
+          },
+          {
+            "Constitution": 10
+          }
+        ],
+        "skills": {
+          "Perception": 6,
+          "Stealth": 8
+        },
+        "damage_immunities": "poison",
+        "condition_immunities": "poisoned",
+        "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 16",
+        "languages": "--",
+        "cr": "11",
+        "traits": [
+          {
+            "name": "Camuflaje Esmeralda",
+            "desc": "La Serpiente Esmeralda tiene ventaja en las pruebas de Destreza (Sigilo) para esconderse en entornos con vegetación."
+          },
+          {
+            "name": "Cuerpo Flexible",
+            "desc": "La Serpiente Esmeralda puede moverse a través de un espacio tan estrecho como 5 pies de ancho sin apretujarse."
+          },
+          {
+            "name": "Reflejos Sobrenaturales",
+            "desc": "La Serpiente Esmeralda puede realizar una acción adicional en cada uno de sus turnos."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ataque Múltiple",
+            "desc": "La Serpiente Esmeralda realiza tres ataques: uno con su Mordisco, uno con su Cola y uno con sus manos"
+          },
+          {
+            "name": "Mordisco",
+            "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 24 (7d6) poison damage. El objetivo debe realizar una tirada de salvación de Constitución CD 16. En caso de fallo, el objetivo queda envenenado durante 1 minuto. Mientras está envenenado de esta manera, el objetivo está paralizado. El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo en caso de éxito."
+          },
+          {
+            "name": "Cola/Arañazo",
+            "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. Si el objetivo es una criatura, debe superar una tirada de salvación de Fuerza CD 18 o quedar derribado."
+          },
+          {
+            "name": "Arañazo",
+            "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d4 + 6) piercing damage."
+          },
+          {
+            "name": "Espiral Constrictora (Recarga 5-6)",
+            "desc": "La Serpiente Esmeralda se enrolla rápidamente alrededor de hasta tres criaturas Grandes o más pequeñas que estén a 15 pies o menos de ella. Cada objetivo debe hacer una tirada de salvación de Destreza CD 18. En caso de fallo, una criatura sufre 21 (3d10 + 5) de daño contundente y queda apresada (escape CD 18). Hasta que este agarre termine, la criatura está restringida. La serpiente puede constricir a un máximo de tres criaturas a la vez."
+          },
+          {
+            "name": "Aliento Venenoso (Recarga 5-6)",
+            "desc": "La Serpiente Esmeralda exhala gas venenoso en un cono de 30 pies. Cada criatura en esa área debe hacer una tirada de salvación de Constitución CD 16, sufriendo 42 (12d6) de daño por veneno en una salvación fallida, o la mitad de daño en una exitosa."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Ataque de Oportunidad Mejorado",
+            "desc": "La Serpiente Esmeralda puede realizar un ataque de oportunidad cuando una criatura entra en su alcance, no solo cuando sale de él."
+          },
+          {
+            "name": "Escamas Deflectoras",
+            "desc": "Cuando la Serpiente Esmeralda es golpeada por un ataque, puede usar su reacción para aumentar su AC en 3 contra ese ataque. Si el ataque falla debido a este aumento, la serpiente puede hacer un ataque de mordisco contra el atacante si está dentro del alcance."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Simbiosis Serpiente Arbórea No-muerta",
+      {
+        "name": "Simbiosis Serpiente Arbórea No-muerta",
+        "size": "Huge",
+        "type": "undead plant",
+        "alignment": "Neutral Evil",
+        "ac": 18,
+        "ac_class": "natural armor",
+        "hp": 195,
+        "hit_dice": "17d12 + 85",
+        "stats": [
+          22,
+          14,
+          20,
+          10,
+          16,
+          18
+        ],
+        "speed": "40 ft., climb 40 ft.",
+        "saves": [
+          {
+            "Constitution": 10
+          },
+          {
+            "Wisdom": 8
+          },
+          {
+            "Charisma": 9
+          }
+        ],
+        "skills": {
+          "Perception": 8,
+          "Stealth": 7
+        },
+        "damage_immunities": "poison, necrotic",
+        "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+        "damage_vulnerabilities": "fire",
+        "condition_immunities": "poisoned, exhaustion",
+        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 18",
+        "languages": "understands Common and Sylvan but can't speak",
+        "cr": "14",
+        "traits": [
+          {
+            "name": "Regeneración Necrótica",
+            "desc": "La Simbiosis recupera 10 puntos de golpe al inicio de su turno si tiene al menos 1 punto de golpe y no ha recibido daño por fuego o radiante desde su último turno."
+          },
+          {
+            "name": "Raíces Invasoras",
+            "desc": "La Simbiosis puede moverse a través de espacios tan estrechos como 1 pulgada de ancho sin apretujarse. Además, el terreno difícil compuesto de crecimiento no mágico o escombros no le cuesta movimiento extra."
+          },
+          {
+            "name": "Aura de Putrefacción",
+            "desc": "Al inicio de cada turno de la Simbiosis, cada criatura a 10 pies de ella debe superar una tirada de salvación de Constitución CD 17 o sufrir 10 (3d6) de daño necrótico y quedar envenenada hasta el final de su próximo turno."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ataque Múltiple",
+            "desc": "La Simbiosis realiza tres ataques: dos con sus Ramas Serpenteantes y uno con su Mordisco Venenoso."
+          },
+          {
+            "name": "Rama Serpenteante",
+            "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 7 (2d6) necrotic damage. Si el objetivo es una criatura, debe superar una tirada de salvación de Fuerza CD 18 o ser arrastrado 10 pies hacia la Simbiosis y quedar apresado (escape CD 18)."
+          },
+          {
+            "name": "Mordisco Venenoso",
+            "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) piercing damage plus 24 (7d6) poison damage. El objetivo debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, el objetivo queda envenenado durante 1 minuto y sufre 11 (2d10) de daño necrótico al inicio de cada uno de sus turnos mientras esté envenenado."
+          },
+          {
+            "name": "Esporas Necróticas (Recarga 5-6)",
+            "desc": "La Simbiosis libera una nube de esporas en un radio de 30 pies. Cada criatura en esa área debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, la criatura sufre 35 (10d6) de daño necrótico y queda cegada durante 1 minuto. En caso de éxito, sufre la mitad del daño y no queda cegada. Una criatura cegada puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma en caso de éxito."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Ataque de Rama",
+            "desc": "La Simbiosis realiza un ataque de Rama Serpenteante."
+          },
+          {
+            "name": "Movimiento Subterráneo",
+            "desc": "La Simbiosis puede moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad, hundiéndose parcialmente en el suelo y reemergiendo."
+          },
+          {
+            "name": "Absorción de Vida (Cuesta 2 Acciones)",
+            "desc": "La Simbiosis elige una criatura apresada por ella y drena su fuerza vital. El objetivo debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, sufre 21 (6d6) de daño necrótico y la Simbiosis recupera puntos de golpe igual a la mitad del daño infligido."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Simbiosis Serpiente Arbórea No-muerta",
+      {
+        "name": "Simbiosis Serpiente Arbórea No-muerta",
+        "size": "Huge",
+        "type": "undead plant",
+        "alignment": "Neutral Evil",
+        "ac": "16 con ESQUELETO 21",
+        "ac_class": "natural armor",
+        "hp": "31 simbiosis + 145 esqueleto",
+        "stats": [
+          22,
+          14,
+          20,
+          10,
+          16,
+          18
+        ],
+        "speed": "40 ft., climb 40 ft.",
+        "saves": [
+          {
+            "Constitution": 10
+          },
+          {
+            "Wisdom": 8
+          },
+          {
+            "Charisma": 9
+          }
+        ],
+        "skills": {
+          "Perception": 8,
+          "Stealth": 7
+        },
+        "damage_immunities": "poison, necrotic",
+        "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+        "damage_vulnerabilities": "fire",
+        "condition_immunities": "poisoned, exhaustion, frightened, charmed",
+        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 18",
+        "languages": "understands Common and Sylvan but can't speak",
+        "cr": "14",
+        "traits": [
+          {
+            "name": "Regeneración Necrótica",
+            "desc": "La Simbiosis recupera 10 puntos de golpe al inicio de su turno si tiene al menos 1 punto de golpe y no ha recibido daño por fuego o radiante desde su último turno."
+          },
+          {
+            "name": "Raíces Invasoras",
+            "desc": "La Simbiosis puede moverse a través de espacios tan estrechos como 1 pulgada de ancho sin apretujarse. Además, el terreno difícil compuesto de crecimiento no mágico o escombros no le cuesta movimiento extra."
+          },
+          {
+            "name": "Aura de Putrefacción",
+            "desc": "Al inicio de cada turno de la Simbiosis, cada criatura a 10 pies de ella debe superar una tirada de salvación de Constitución CD 17 o sufrir 10 (3d6) de daño necrótico y quedar envenenada hasta el final de su próximo turno."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ataque Múltiple",
+            "desc": "La Simbiosis realiza tres ataques: dos con sus Ramas Serpenteantes y uno con su Mordisco Venenoso."
+          },
+          {
+            "name": "Rama Serpenteante",
+            "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 7 (2d6) necrotic damage. Si el objetivo es una criatura, debe superar una tirada de salvación de Fuerza CD 18 o ser arrastrado 10 pies hacia la Simbiosis y quedar apresado (escape CD 18)."
+          },
+          {
+            "name": "Mordisco Venenoso",
+            "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) piercing damage plus 24 (7d6) poison damage. El objetivo debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, el objetivo queda envenenado durante 1 minuto y sufre 11 (2d10) de daño necrótico al inicio de cada uno de sus turnos mientras esté envenenado."
+          },
+          {
+            "name": "Esporas Necróticas (Recarga 5-6)",
+            "desc": "La Simbiosis libera una nube de esporas en un radio de 30 pies. Cada criatura en esa área debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, la criatura sufre 35 (10d6) de daño necrótico y queda cegada durante 1 minuto. En caso de éxito, sufre la mitad del daño y no queda cegada. Una criatura cegada puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma en caso de éxito."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Ataque de Rama",
+            "desc": "La Simbiosis realiza un ataque de Rama Serpenteante."
+          },
+          {
+            "name": "Movimiento Subterráneo",
+            "desc": "La Simbiosis puede moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad, hundiéndose parcialmente en el suelo y reemergiendo."
+          },
+          {
+            "name": "Absorción de Vida (Cuesta 2 Acciones)",
+            "desc": "El ESQUELETO de la Simbiosis elige una criatura apresada por ella y drena su fuerza vital. El objetivo debe realizar una tirada de salvación de Constitución CD 17. En caso de fallo, sufre 21 (6d6) de daño necrótico y la Simbiosis recupera puntos de golpe igual a la mitad del daño infligido."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Falso Golem de Sylvanos",
+      {
+        "name": "Falso Golem de Sylvanos",
+        "size": "Huge",
+        "type": "construct",
+        "alignment": "unaligned",
+        "ac": 23,
+        "ac_class": "natural armor",
+        "hp": 350,
+        "stats": [
+          26,
+          8,
+          30,
+          3,
+          11,
+          1
+        ],
+        "speed": "35 ft.",
+        "saves": [
+          {
+            "Constitution": 15
+          },
+          {
+            "Wisdom": 5
+          }
+        ],
+        "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+        "senses": "darkvision 120 ft., tremorsense 60 ft., passive Perception 10",
+        "languages": "understands the languages of its creator but can't speak",
+        "cr": "16",
+        "traits": [
+          {
+            "name": "Absorber ácido",
+            "desc": "Cuando el golem es sometido a daño por ácido, en lugar de recibir daño recupera una cantidad de puntos de golpe igual al daño por ácido infligido."
+          },
+          {
+            "name": "Forma inmutable",
+            "desc": "El golem es inmune a cualquier hechizo o efecto que altere su forma."
+          },
+          {
+            "name": "Resistencia mágica",
+            "desc": "El golem tiene ventaja en las tiradas de salvación contra hechizos y otros efectos mágicos."
+          },
+          {
+            "name": "Armas mágicas",
+            "desc": "Los ataques de arma del golem son mágicos."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Golpe cercano mortal",
+            "desc": "Insta muerte a criaturas con 100 puntos de vida o menos, a menos que tenga alguna habilidad que lo proteja"
+          },
+          {
+            "name": "Multiataque",
+            "desc": "El golem realiza tres ataques de Golpe Sísmico."
+          },
+          {
+            "name": "Golpe Sísmico",
+            "desc": "Ataque de arma cuerpo a cuerpo: +13 al ataque, alcance 90 pies, un objetivo. Impacto: 24 (3d10 + 8) de daño contundente. Si el objetivo es una criatura, debe superar una tirada de salvación de Constitución CD 18 o caer derribado."
+          },
+          {
+            "name": "Terremoto (Recarga 5-6)",
+            "desc": "El golem golpea el suelo, creando un terremoto en un radio de 60 pies. Cada criatura en el suelo en esa área debe hacer una tirada de salvación de Destreza CD 18. En caso de fallo, la criatura sufre 45 (10d8) de daño contundente y cae derribada. En caso de éxito, sufre la mitad del daño y no cae derribada. El terreno en esa área se convierte en terreno difícil hasta que sea despejado."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Ataque",
+            "desc": "El golem realiza un ataque de Golpe Sísmico."
+          },
+          {
+            "name": "Muro de Tierra (Cuesta 2 Acciones)",
+            "desc": "El golem crea un muro de tierra sólida en un punto que pueda ver dentro de 120 pies. El muro tiene 30 pies de largo, 10 pies de alto y 5 pies de grosor. Dura hasta el siguiente turno del golem a menos que sea destruido antes."
+          },
+          {
+            "name": "Regeneración de Tierra (Cuesta 3 Acciones)",
+            "desc": "El golem recupera 40 puntos de golpe."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Falso Corazón de Sylvanos Corrupto",
+      {
+        "name": "Falso Corazón de Sylvanos Corrupto",
+        "size": "Large",
+        "type": "construct",
+        "alignment": "neutral evil",
+        "ac": 16,
+        "ac_class": "natural armor",
+        "hp": 152,
+        "hit_dice": "16d10 + 64",
+        "stats": [
+          10,
+          8,
+          18,
+          12,
+          16,
+          18
+        ],
+        "speed": "0 ft., hover 20 ft.",
+        "saves": [
+          {
+            "Constitution": 8
+          },
+          {
+            "Wisdom": 7
+          },
+          {
+            "Charisma": 8
+          }
+        ],
+        "damage_immunities": "poison, psychic",
+        "damage_resistances": "necrotic, bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+        "senses": "darkvision 120 ft., passive Perception 13",
+        "languages": "entiende Común y Silvano pero no puede hablar",
+        "cr": "10",
+        "traits": [
+          {
+            "name": "Aura de Corrupción",
+            "desc": "Al inicio del turno de cualquier criatura que esté a 20 pies del corazón, debe realizar una tirada de salvación de Constitución CD 15. En caso de fallo, sufre 7 (2d6) de daño necrótico."
+          },
+          {
+            "name": "Anclaje Vital",
+            "desc": "Si el corazón recibe daño radiante, debe realizar una tirada de salvación de Constitución CD 15. Si falla, pierde su capacidad de flotar hasta el final de su siguiente turno."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Pulso Necrótico",
+            "desc": "El corazón emite un pulso de energía oscura. Cada criatura en un radio de 30 pies debe realizar una tirada de salvación de Constitución CD 16. En caso de fallo, sufre 21 (6d6) de daño necrótico y queda envenenada hasta el final de su siguiente turno. En caso de éxito, sufre la mitad del daño y no queda envenenada."
+          },
+          {
+            "name": "Tentáculos Sombríos (Recarga 5-6)",
+            "desc": "El corazón extiende tentáculos de energía oscura hacia tres objetivos diferentes dentro de 30 pies. Cada objetivo debe realizar una tirada de salvación de Destreza CD 15. En caso de fallo, sufre 17 (4d6 + 3) de daño necrótico y queda apresado (CD 15 para escapar). En caso de éxito, sufre la mitad del daño y no queda apresado."
+          },
+          {
+            "name": "Absorción Vital",
+            "desc": "El corazón elige hasta dos criaturas apresadas por sus tentáculos. Cada objetivo debe realizar una tirada de salvación de Constitución CD 15. En caso de fallo, sufre 14 (4d6) de daño necrótico y el corazón recupera puntos de golpe igual a la mitad del daño causado."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Pulso Defensivo",
+            "desc": "Cuando el corazón recibe daño de un ataque, puede usar su reacción para forzar a todas las criaturas en un radio de 10 pies a realizar una tirada de salvación de Constitución CD 15. En caso de fallo, son empujadas 10 pies hacia atrás y sufren 7 (2d6) de daño de fuerza."
+          }
+        ],
+        "source": [
+          "Telduria"
+        ],
+        "layout": "Basic 5e Layout"
+      }
+    ]
+  ],
   "defaultLayouts": {
     "basic-5e-layout": {
       "blocks": [
@@ -444,7 +1112,8 @@
     "patch": 1
   },
   "paths": [
-    "04 - Bestiary"
+    "04 - Bestiary",
+    "99 - Mechanics CLI/CLI/bestiary"
   ],
   "autoParse": true,
   "disableSRD": false,
